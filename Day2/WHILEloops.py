@@ -1,7 +1,15 @@
-# WHILE OOPS ARE INDEFINITE 
+# WHILE loops repeatedly execute a code block as long as the condition evaluates to True 
+# The condition of  while loop is always checked first before it runs - if the condition is not met, the coe block will never run. 
+# Use while loops to run the same task multiple times. For loops used to loop over information once in a list of data. 
 
 # while <conditional statement>:   while is type of loop. Followed by a conditional statement 
 #   <action>  ollowed by an action 
+
+## could use a while loop to:
+# Check for another line in a file
+# Check if a flag has been set
+# Check if a user has finished entering values
+# Check if something has changed to indicate the code can stop performing. 
 
 count = 0  #count initially 0 
 while count <= 3: #cpnditional state - while count is less than or equal to 3
@@ -61,4 +69,21 @@ while index < length:
 # I am learning about loops
 # I am learning about modules
 # I am learning about classes
+
+####
+# Create the variable for user input
+user_input = ''
+# Create the list to store the values
+inputs = []
+
+# The while loop
+while user_input.lower() != 'done':
+    # Check if there's a value in user_input
+    if user_input:
+        # Store the value in the list
+        inputs.append(user_input)
+    # Prompt for a new value
+    user_input = input('Enter a new value, or done when done')
+    
+    
 

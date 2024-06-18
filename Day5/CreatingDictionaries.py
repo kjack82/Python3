@@ -1,6 +1,6 @@
 ## dictionary is an unordered set of key: value pairs 
 
-## EG want to sotre prices of items sold in  cafe 
+## EG want to store prices of items sold in  cafe 
 
 menu = {"avocado toast": 6, "carrot juice": 5, "blueberry muffin": 2}
 ##dictionary is called menu 

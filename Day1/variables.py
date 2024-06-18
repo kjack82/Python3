@@ -1,3 +1,7 @@
+# use = to assign value to a variable 
+# Data can be be assigned, strings, bools, numbers, lists etc 
+# can be re-assigned  using = again 
+
 my_name = "Kate"  #no const or let 
 print("Hello and welcome " + my_name + "!") #to print to the console it is print then (whatever to be printed in brckets)
 
@@ -30,5 +34,5 @@ print(an_int + 3) #can use as a literal, ie her, just typed 3 and 3 is known to 
 
 #INPUT FUNCTION allows a prompt message which will print out for usert before they enter information
 
-likes_snakes = input("Do you like snakes? ")
-
+name = input("What is your name? ") ### leave whiespace, in terminal, can answer this 
+print("Hello " + name) ## in terminal it will ask what is your name.. I answered Kate, it then prints, Hello Kate 

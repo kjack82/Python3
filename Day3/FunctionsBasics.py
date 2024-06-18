@@ -52,6 +52,21 @@ def trip_welcome(destination):
 
 trip_welcome("Times Square") # prints above two lines with Times Square as destination
 
+### RETURN 
+
+# A return keyword is used to return a value from a Python function. 
+# The value returned from a function can be assigned to a variable which can then be used in the program.
+
+def check_leap_year(year): 
+  if year % 4 == 0:
+    return str(year) + " is a leap year."
+  else:
+    return str(year) + " is not a leap year."
+
+year_to_check = 2018
+returned_value = check_leap_year(year_to_check)
+print(returned_value) # 2018 is not a leap year.
+
 
 #### SCOPE
 
@@ -70,3 +85,15 @@ def show_favorite_locations():
 
 print_count_locations()
 show_favorite_locations()
+ ####
+
+## Can return multiple values too
+
+def square_point(x, y, z):
+  x_squared = x * x
+  y_squared = y * y
+  z_squared = z * z
+  # Return all three values:
+  return x_squared, y_squared, z_squared
+
+three_squared, four_squared, five_squared = square_point(3, 4, 5)

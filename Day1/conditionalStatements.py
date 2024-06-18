@@ -1,3 +1,9 @@
+# If statement used to determine the execution of code based on evaluation of boolean expression.
+# Python elif allows continued checks to be performed after an initial if statement.
+# Once an elif statement evaluates to true, code following (indented) will run then it will stop. 
+# Else statement if final statement following if, or elif if they return false. 
+# if, elif and else should not be indented, however code on next line should be. 
+
 user_name = "angela_catlady_87"
 
 if user_name == "Dave":   #use semi-colon

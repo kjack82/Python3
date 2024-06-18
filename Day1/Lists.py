@@ -2,6 +2,8 @@
 
 # Start with [ and ends with ].
 # Separated by a comma and a space
+# start with 0. and run for the length of the list - 1
+# to access an index of a list, need to use [], so could be [0], [1] or even [i] if referring to looping through the list 
 
 heights = [61, 70, 67, 64, 65]
 

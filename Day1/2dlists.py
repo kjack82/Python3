@@ -8,6 +8,11 @@ tic_tac_toe = [
             ["O","O","X"]
 ]
 
+
+## To modity a 2d list, index for sublist and index for element need to be provided. 
+## list[sublist_index] [element_in_sublist_index] = new value
+## To access, similar to above, without the = to assign new value 
+
 heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik", 68]]
 sams_height = heights[2][1] #0,0 for Jenny, 0,1 for 61, 1, 0 for Alexus, 1, 1 for 67 and so on 
 print(sams_height)

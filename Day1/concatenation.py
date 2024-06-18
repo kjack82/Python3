@@ -1,4 +1,5 @@
 #adding two strings together using + 
+# if combining different data types then need to convert the data types first. Use of str(), int(), bool() and float() will help with this. 
 
 greeting_text = "Hey there!"
 question_text = "How are you doing?"

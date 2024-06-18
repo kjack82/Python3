@@ -1,3 +1,10 @@
+# start with 0. and run for the length of the list - 1
+# to access an index of a list, need to use [], so could be [0], [1] or even [i] if referring to looping through the list 
+# To access last element [-1]
+# Last 3 elements [-3:]
+# to access everything but the last 2 [:2]
+
+
 employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
 
 employee_four = employees[3]

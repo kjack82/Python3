@@ -1,3 +1,5 @@
+# PLus equals operator provides convenient way to add a value to existing varaible and return new value back to same variable 
+
 # First we have a variable with a number saved
 number_of_miles_hiked = 12
 

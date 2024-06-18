@@ -7,6 +7,12 @@
 # .lower() returns the string with all lowercase characters.
 # .upper() returns the string with all uppercase characters.
 # .title() returns the string in title case, which means the first letter of each word is capitalized.
+# .FORMAT() replaces empty brace ({}) placeholders in the string with its arguments.
+# If keywords are specified within the placeholders, they are replaced with the corresponding named arguments to the method.
+
+
+
+
 
 favorite_song = 'SmOoTH'
 favorite_song_lowercase = favorite_song.lower()
@@ -25,6 +31,16 @@ print(poem_title_fixed) #Spring Storm
 poem_author_fixed = poem_author.upper()
 print(poem_author) #William Carlos Williams 
 print(poem_author_fixed) #WILLIAM CARLOS WILLIAMS 
+
+## FORMAT()
+
+msg1 = 'Fred scored {} out of {} points.'
+msg1.format(3, 10)
+# => 'Fred scored 3 out of 10 points.'
+
+msg2 = 'Fred {verb} a {adjective} {noun}.'
+msg2.format(adjective='fluffy', verb='tickled', noun='hamster')
+# => 'Fred tickled a fluffy hamster.'
 
 ###########
 ### SPLITTING STRINGS 

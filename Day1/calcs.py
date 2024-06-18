@@ -49,7 +49,8 @@ print(8 ** 2)
 # How many squares for 6 people to have 6 quilts each that are 6x6? Ie 6 x 6 x 6 x 6 
 print(6 ** 4 )
 
-#modulo operator is % 
+#modulo operator is remainder. 
+
 # Prints 4 because 29 / 5 is 5 with a remainder of 4
 print(29 % 5)
  
