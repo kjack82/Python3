@@ -1,3 +1,6 @@
+## Function is a block of reusable code that performs a specific task. Accepts an inout, processes it then returns the output
+## Used to pull together some code that performs a specific operation which can be used over again. Helps reduce duplication. 
+
 #defining a function
 
 #def function_name():  always put def then the function name then () and :

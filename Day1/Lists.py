@@ -1,4 +1,14 @@
-# These are arrays 
+# These are like arrays from JavaScript. 
+
+## dictionary is an unordered set of key: value pairs 
+## Differs from a list as this is ordered collection of items
+## list uses [ ] whereas dictionary used { }
+## Lists have items in a defned order which will not change, dictionaries have no defined order
+## Cannot have a duplicate name, each key is unique 
+## Use lists when order matters or have multiples values for an item- use dictionary  when value is unique with unique key 
+## Built in functions for lists append(), remove(), pop(), sort() etc 
+#Built in function for dictionaries keys(), values(), items(), get(), pop() etc 
+## Lists faster for ordered operations, dictionaries faster for lookup operations 
 
 # Start with [ and ends with ].
 # Separated by a comma and a space

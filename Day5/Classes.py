@@ -1,3 +1,10 @@
+## A class is a blueprint for creating objects(instances). A class defines a set of attributes and methods that the created objects can have. 
+## Classes used to model real-world entities by bundling related data and functions together. 
+## Provides a way to create and manage objects with similar properties/behaviours. 
+## Class will include methods (functions)
+## Objects are instances of the class 
+
+
 ## types
 ## can check the type using type function type()
 
@@ -41,6 +48,19 @@ class Facade:
 facade_1 = Facade() ## same as above 
 facade_1_type = type(facade_1)
 print(facade_1_type) ## <class '__main__.Facade'>
+
+####
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+calc = Calculator()
+print(calc.add(10, 5))       # Output: 15
+print(calc.subtract(10, 5))  # Output: 5
 
 
 

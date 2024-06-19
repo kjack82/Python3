@@ -1,6 +1,6 @@
 ### Basic RESTful API to manage student data 
 
-from fastapi import FastAPI, Path  ## This is used to create the API, Path used to extract params from URL
+from fastapi import FastAPI, Path, HTTPException## This is used to create the API, Path used to extract params from URL, and HTTPException class to be imported so can be used 
 from typing import Optional ##Used for optional params
 from pydantic import BaseModel ##Used to define data schemes 
 
