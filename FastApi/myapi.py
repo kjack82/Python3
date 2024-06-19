@@ -122,3 +122,6 @@ def delete_student(student_id: int): #student id should be integer
 
 # then test via api use / docs at end of url to test
 
+#### CAN ALSO LOOK AT PATCH OR HEAD REQUESTS 
+
+
