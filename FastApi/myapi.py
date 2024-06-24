@@ -1,3 +1,11 @@
+## API this stands for application programming interface. Basically is a collection of pre-defined ways of, 
+# or rules for interacting with a web application;s data, usually through HTTP requests and responses. These 
+# requests interact with the data, ie read, create, update or delete and then receives back some data as a response. 
+
+## CRUD = create, read, update, delete. 
+
+
+
 ### Basic RESTful API to manage student data 
 
 from fastapi import FastAPI, Path, HTTPException## This is used to create the API, Path used to extract params from URL, and HTTPException class to be imported so can be used 
