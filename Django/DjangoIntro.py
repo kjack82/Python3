@@ -39,4 +39,10 @@
 #   path('admin/', admin.site.urls),
 # ]
 
-## TO START A SERVER...        python3 manage.py runserver <port number>
+## TO START A SERVER...        python3 manage.py runserver
+
+## python3 manage.py startapp nameofapp   - this creates a new app. 
+## then need to add to settings to the list of apps. 
+## "nameofapp.apps.nameofappConfig"
+
+
